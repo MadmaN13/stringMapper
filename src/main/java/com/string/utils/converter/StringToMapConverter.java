@@ -19,8 +19,8 @@ import static java.nio.channels.FileChannel.MapMode.READ_ONLY;
 @Slf4j
 public class StringToMapConverter {
 
-    public static int DEFAULT_BUFFER_SIZE = 8192;
-    public static String DEFAULT_CHARSET_NAME = "UTF-8";
+    public static final int DEFAULT_BUFFER_SIZE = 8192;
+    public static final String DEFAULT_CHARSET_NAME = "UTF-8";
 
     /**
      * Byte buffer size to read from file. Default value is defined by {@link #DEFAULT_BUFFER_SIZE} constant.
